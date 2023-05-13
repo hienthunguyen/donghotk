@@ -1,0 +1,22 @@
+# Compile of donghotk.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 21:49:42 on May 12,2023
+# Loading work.tb
+# Loading work.donghotk
+add wave -position insertpoint sim:/tb/#INITIAL#26/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hienn  Hostname: DESKTOP-HOFJ9HF  ProcessID: 28404
+#           Attempting to use alternate WLF file "./wlft0hxyrc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0hxyrc
+add wave -position insertpoint sim:/tb/donghotk_inst/#ALWAYS#67/*
+run -all
+# ** Note: $finish    : E:/ModelLuuvaoday/tb.v(31)
+#    Time: 100001 ns  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at E:/ModelLuuvaoday/tb.v line 31
+# End time: 22:44:06 on May 12,2023, Elapsed time: 0:54:24
+# Errors: 0, Warnings: 4

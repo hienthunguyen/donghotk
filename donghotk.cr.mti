@@ -1,0 +1,15 @@
+E:/ModelLuuvaoday/tb.v {1 {vlog -work work -stats=none E:/ModelLuuvaoday/tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}} E:/ModelLuuvaoday/donghotk.v {1 {vlog -work work -stats=none E:/ModelLuuvaoday/donghotk.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module donghotk
+
+Top level modules:
+	donghotk
+
+} {} {}}
